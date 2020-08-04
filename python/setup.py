@@ -35,6 +35,6 @@ setup(
     packages=["pandas_pbf"],
     zip_safe=True,
     entry_points=None,
-    install_requires=["click>=6.7"],
+    install_requires=["click>=6.7", "pandas>1.0"],
     extras_require={"watch": ["watchgod>=0.4"]},
 )
